@@ -17,7 +17,7 @@ class App extends React.Component {
             }
           }},
           {title:"Name",accessor:"name",width:300,index:2},
-          {title:"Age",accessor:"age",index:2},
+          {title:"Age",accessor:"age",index:3},
           {title:"Qualification",accessor:"qualification",index:4},
           {title:"Rating",accessor:"rating",index:5,width:200,cell:row=>(
             <div className="rating">
